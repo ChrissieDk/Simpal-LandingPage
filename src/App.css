@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 h1, p {
   color: #FFFCF9;
 }
+
 p {
   font-size: 20px;
 }
@@ -28,9 +28,8 @@ body {
   color: #14110F;
   padding: 80px 20px;
   justify-content: center;
-  
-  
 }
+
 .newsletter-bx h3 {
   margin: 20px;
   font-weight: 700;
@@ -38,7 +37,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  
 }
 
 .new-email-bx {
@@ -50,6 +48,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .new-email-bx::before {
   content: "";
   background: #121212;
@@ -61,6 +60,7 @@ body {
   bottom: -1px;
   right: -1px;
 }
+
 .new-email-bx::after {
   content: "";
   background: #fff;
@@ -72,6 +72,7 @@ body {
   bottom: 0;
   right: 0;
 }
+
 .new-email-bx input {
   width: 100%;
   color: #121212;
@@ -81,6 +82,7 @@ body {
   padding: 0 15px;
   outline: none;
 }
+
 .new-email-bx button {
   background:#FFD60A;
   padding: 10px 50px;
@@ -94,12 +96,14 @@ body {
 button:hover {
   background: #ccc;
 }
+
 .container {
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
+
 .container h1 {
   font-size: 4.5em;
   font-weight: 700;
